@@ -30,10 +30,8 @@ def send():
     return obj
     
 def rec(data):
-	LIGHT_1=50
+	#facing an error over here (have to make keys = values but iterartor failed)
 	p1.ChangeDutyCycle(LIGHT_1)
-	sleep(10)
-	print LIGHT_1
 	p2.ChangeDutyCycle(LIGHT_2)
 	p3.ChangeDutyCycle(LIGHT_3)
 	p4.ChangeDutyCycle(FAN_1)
